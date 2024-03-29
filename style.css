@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: rgb(88, 88, 88);
+}
+nav ul{
+    display:flex;
+    list-style-type:none;
+    height: 40px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+li{
+    margin-right:20px;
+    color: rgb(255, 255, 255);
+}
+.brand img{
+    height:38px;
+    width: 38px;
+    margin:0px;
+    padding:0px 2px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.25rem;
+}
+
+.bottom{
+    background-color: rgb(88, 88, 88);
+    color: white;
+    height:80px;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.icons{
+   margin-top: 10px;
+}
+.icons{
+    display: inline;
+    cursor: pointer;
+}
+.container{
+    min-height:72vh;
+    color: white;
+    background-color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* display: flex; */
+    width: 80%;
+    margin:20px auto; 
+    border-radius: 9px;
+    padding-top: 20px;
+    padding-left: 15px;
+    /* padding-bottom: 20px;
+    padding-right: 11px; */
+
+    background-image:url('bk.jpg');
+    background-size: 50%;
+    background-position:100%;
+    background-repeat:no-repeat ;
+    
+    /* background-image:url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%; */
+   
+}
+
+#myProgressBar{
+    width: 100vh;
+    cursor: pointer;
+}
+
+.songItem{
+    margin:10px 0;
+    display: flex;
+    height:40px;
+    width:300px;
+    color: blue;
+    background-color: #F0ECE5;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 24px;
+}
+.songItem img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+
+}
+.fas{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    right:5px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+    
+}
